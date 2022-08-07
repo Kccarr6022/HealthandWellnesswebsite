@@ -8,26 +8,50 @@
   <body>
     <section id="header">
       <div class="container">
-        <div class="container">
-          <img src="images/logo.png" class="logo" />
-          <div>
-            <h1 class="header-text">
-              The purpose is to bring health, wellness, and strength to a budget
-              everyone can afford.
-            </h1>
-            <span class="square"></span>
-            <p class="text">
-              We all know that leading a healthy lifestyle is important, but it
-              can be hard to know where to start. That's where our Health,
-              Wellness, and Strength website comes in. We offer tips and advice
-              on everything from eating healthy to getting enough exercise, and
-              we'll help you find the resources you need to make healthy living
-              easy and fun.
-            </p>
-            <button class="common-btn">Read more</button>
-          </div>
+        <img src="images/logo.png" class="logo" />
+        <h1 class="header-text">
+          The purpose is to bring health, wellness, and strength to a budget
+          everyone can afford.
+        </h1>
+        <span class="square"></span>
+        <p class="text">
+          We all know that leading a healthy lifestyle is important, but it can
+          be hard to know where to start. That's where our Health, Wellness, and
+          Strength website comes in. We offer tips and advice on everything from
+          eating healthy to getting enough exercise, and we'll help you find the
+          resources you need to make healthy living easy and fun.
+        </p>
+        <button class="common-btn">Read more</button>
+        <div class="line">
+          <span class="line-1"></span><br />
+          <span class="line-2"></span><br />
+          <span class="line-3"></span><br />
         </div>
       </div>
     </section>
+
+    <nav id="sideNav">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Meet the writers</a></li>
+        <li><a href="#">Articles</a></li>
+        <li><a href="#">Programs that work</a></li>
+      </ul>
+    </nav>
+    <img src="images/menu.png" id="menuBtn" />
+    <script>
+      var menuBtn = document.getElementById("menuBtn");
+      var sideNav = document.getElementById("sideNav");
+
+      sideNav.style.right = "-250px";
+      menuBtn.onclick = function () {
+        if ((sideNav.style.right == "-250px")) {
+          sideNav.style.right = "0";
+        } 
+        else {
+          sideNav.style.right = "-250px";
+        }
+      };
+    </script>
   </body>
 </html>
