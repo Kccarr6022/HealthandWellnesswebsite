@@ -39,16 +39,32 @@
       </ul>
     </nav>
     <img src="images/menu.png" id="menuBtn" />
+
+    <!-- about-->
+    <section id="about">
+      <div class="about-left-col"></div>
+      <div class="about-right-col">
+        <div class="about-text"></div>"
+        <h1 class=>Meet the writers</h1>
+        <p class=>
+          We are a team of powerlifting coaches who have created a new program
+          that is great for beginners and experienced lifters alike. Our program
+          is affordable and effective, and we are always looking for new ways to
+          improve it.
+        </p>
+      </div>
+    </div>
+    </section>
+
     <script>
       var menuBtn = document.getElementById("menuBtn");
       var sideNav = document.getElementById("sideNav");
 
       sideNav.style.right = "-250px";
       menuBtn.onclick = function () {
-        if ((sideNav.style.right == "-250px")) {
+        if (sideNav.style.right == "-250px") {
           sideNav.style.right = "0";
-        } 
-        else {
+        } else {
           sideNav.style.right = "-250px";
         }
       };
