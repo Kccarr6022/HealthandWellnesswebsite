@@ -53,9 +53,9 @@
   background: transparent;
   outline: none;
   border: 1px solid #8db600;
+  color: white;
   font-weight: bold;
   cursor: pointer;
-  color: white;
   margin-bottom: 60px;
 }
 
@@ -130,7 +130,6 @@ nav ul li a {
   background-image: url(images/about_us_background.jpg);
   background-position: center;
   background-size: cover;
-  
 }
 
 .about-left-col {
@@ -167,12 +166,12 @@ nav ul li a {
   margin: 50px 0 10px;
   font-size: 28px;
   font-style: italic;
-  color: #797979
+  color: #797979;
 }
 
 /*-----features-----*/
 
-#features{
+#features {
   height: 100vh;
   height: 100%;
   width: 100%;
@@ -194,7 +193,36 @@ nav ul li a {
   text-align: center;
 }
 
-.feature-col img{
+.feature-col img {
   width: 100px;
-  
 }
+
+.feature-col h4 {
+  margin-bottom: 15px;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.feature-btn {
+  padding: 18px 40px;
+  background: transparent;
+  outline: none;
+  border: 1px solid #8db600;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.feature {
+  margin: 80px auto 0;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.feature .line {
+  text-align: right;
+  display: inline-block;
+  margin-right: 25px;
+}
+
+/*----Programs----*/
