@@ -284,8 +284,7 @@ hr {
 }
 
 .footer-right-col {
-  flex-basis: 50%;
-
+  flex-basis: 35%;
 }
 
 .footer-links {
@@ -312,5 +311,5 @@ hr {
 }
 
 .footer-btn {
-  color:black
+  color: black;
 }
